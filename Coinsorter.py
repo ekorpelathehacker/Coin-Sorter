@@ -8,8 +8,7 @@ n = int(coinamount/5)
 coinamount = coinamount - (n * 5)
 p = int(coinamount/1)
 coinamount = coinamount - (p * 1)
-output = str(coinamount) + "is {} quarters, {} dimes, {} nickels, and {} pennys
-output = output.format (q, d ,n ,p)
+output = str(coinamount) + "is {} quarters, {} dimes, {} nickels, and {} pennys".format(q, d ,n ,p)
 print(output)
 
 
